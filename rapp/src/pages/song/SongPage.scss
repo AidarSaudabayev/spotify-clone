@@ -1,0 +1,31 @@
+.song-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    &__modal-container {
+        display: flex;
+        flex-direction: column;
+    } 
+    &__songs-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 600px;
+        min-height: 300px;
+        margin-top: 60px;
+        background-color: red;
+    }
+    &__song-item{
+        display: flex;
+        justify-content: space-between;
+        padding: 6px;
+  align-items: center;
+        width: 100%;
+        height: 80px;
+        background-color: green;
+
+    }
+}

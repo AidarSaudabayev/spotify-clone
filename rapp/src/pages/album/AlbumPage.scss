@@ -1,0 +1,54 @@
+.album-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    &__modal-container {
+      display: flex;
+      flex-direction: column;
+    }
+    &__albums-list {
+      display: flex;
+      flex-direction: column;
+      margin-top: 60px;
+      gap: 10px;
+      width: 600px;
+      min-height: 300px;
+      background-color: red;
+    }
+    &__album-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px;
+      align-items: center;
+      width: 100%;
+      height: 80px;
+      background-color: green;
+      & img {
+        height: 100%;
+      }
+    }
+    &__num-of-songs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+      border: none;
+    }
+
+ &__songs-from-album {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-height: 200px;
+  
+  & li {
+    list-style-type: none;
+  }
+ }    
+  }
