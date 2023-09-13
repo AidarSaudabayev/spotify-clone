@@ -2,6 +2,10 @@ const mongoose = require('mongoose')
 
 const AlbumSchema = new mongoose.Schema(
     {
+       author: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref:"User"
+       },
         name:{
             type : String,
             required: true,

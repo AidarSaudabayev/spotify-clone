@@ -8,6 +8,7 @@ import SongPage from './pages/song/SongPage';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import AlbumPage from "./pages/album/AlbumPage"
+import SingerPage from "./pages/singer/SingerPage"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
             <Route path='/' element={<App />} />
             <Route path='/song' element={<SongPage />} />
             <Route path='/album' element={<AlbumPage />} />
+            <Route path='/singer' element={<SingerPage />} />
           </Routes>
         </div>
       </div>

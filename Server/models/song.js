@@ -2,6 +2,10 @@ const mongoose = require('mongoose')
 
 const SongSchema = new mongoose.Schema(
     {
+        author: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref:"User"
+           },
         title:{
             type : String,
             required:true
